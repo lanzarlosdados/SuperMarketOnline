@@ -91,3 +91,52 @@ nav{
     border-radius: 5px;
     border-style: none;
 }
+.slider{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor_informativo{
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    z-index: 2;
+}
+.text_informativo{
+    color: #fff;
+    font-weight: 300;
+}
+.titulo_informativo{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+}
+.boton_informativo{
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #ed174a;
+    color: #fff;
+    cursor: pointer;
+}
+.boton_informativo:hover{
+    background: darkblue;
+}
