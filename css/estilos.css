@@ -172,3 +172,39 @@ nav{
     color:#fff;
     border-radius: 5px;
 }
+.contenedor_productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10px;
+}
+.productos{
+    margin: 0 5px ;
+    text-align: center;
+    border: 1px solid rgba(146, 146, 146, 0.76);
+    border-radius: 5px;
+    
+}
+.productos img{
+    width: 100%;
+    height: 150px;
+    
+}
+.productos h2{
+    font-size: 23px;
+    color: #ed174a;
+}
+.btn-car{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid rgba(146, 146, 146, 0.76);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-car:hover{
+    background: rgba(40, 40, 214, 0.884);
+    color:#fff;
+    border-style: none;
+}
