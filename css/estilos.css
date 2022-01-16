@@ -140,3 +140,35 @@ nav{
 .boton_informativo:hover{
     background: darkblue;
 }
+.verduras_estanteria{
+    width: 90%;
+    margin: auto;
+}
+.estanteria_img{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.contenedor_section_verduras{
+    width: 100%;
+    margin-top: 20px;
+}
+.contenedor_enlaces_productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.contenedor_enlaces_productos a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color:black;
+    margin: 0 5px ;
+}
+.contenedor_enlaces_productos a:hover{
+    background: #ed174a;
+    color:#fff;
+    border-radius: 5px;
+}
