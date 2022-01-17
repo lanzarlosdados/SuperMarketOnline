@@ -208,3 +208,19 @@ nav{
     color:#fff;
     border-style: none;
 }
+.ofertas_text{
+    display: none;
+
+}
+.section_ofertas{
+    margin-top: 30px;
+}
+.contenedor_ofertas{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.contenedor_ofertas img{
+    width: 100%;
+    height: 100%;
+}
