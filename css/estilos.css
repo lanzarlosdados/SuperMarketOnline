@@ -229,7 +229,7 @@ nav{
 }
 .contenedor_especial{
     display: grid;
-    grid-template-rows: 20% 20% 60%;
+    grid-template-rows: 20% 30% 50%;
     width: 80%;
     margin: auto;
     gap: 20px;
@@ -257,13 +257,12 @@ nav{
 }
 .top_products{
     background: rgba(243, 242, 242, 0.521);
-    
 }
 .contenedor_productos2{
-    display: grid;
-    row-gap: 20px;
-    flex-direction: column;
-    
+   display: grid;
+   row-gap: 20px;
+   padding:  30px 0;
+   
 }
 .medios_pagos {
     position: relative;
@@ -329,7 +328,54 @@ nav{
 .slider__btn--right{
     right: 0%;
 }
-
+.newlesster{
+    display: grid;
+    width: 100%;
+    background: darkblue;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    justify-content: center;
+}
+.contenedor_newlesster{
+    text-align: center;
+    padding: 20px;
+}
+.contenedor_newlesster h4{
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.contenedor_newlesster p{
+    color: #fff;
+}
+.contenedor_email{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.contenedor_email input{
+    display: block;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+.contenedor_email label{
+    position: absolute;
+    font-size: 40px;
+    padding: 5px;
+    right: 30px;
+    top: 0px;
+    background: #ed174a;
+    width: 100px;
+    height: 51px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px ;
+    cursor: pointer;
+}
 @media screen and (min-width:1024px){
     .content_title{
     font-size: 40px;
