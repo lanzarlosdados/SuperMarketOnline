@@ -376,6 +376,57 @@ nav{
     border-bottom-right-radius: 20px ;
     cursor: pointer;
 }
+footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.contenedor_Informacion_footer{
+    padding: 10px;
+}
+.contenedor_Informacion_footer h4{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.contenedor_Informacion_footer hr{
+    width: 50px;
+    height: 3px;
+    background: darkblue;
+    border-style: none;
+    margin-bottom: 20px;
+}
+.contenedor_Informacion_footer li{
+    list-style: none;
+    margin-top: 10px;
+}
+.contenedor_Informacion_footer li a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor_Informacion_footer li a:hover{
+    
+    color: darkblue;
+}
+.contenedor_redes{
+    margin-top: 10px;
+}
+.contenedor_redes h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+    
+}
+.contenedor_redes i{
+   font-size: 30px;
+   margin-right: 10px;
+   cursor: pointer;
+   transition: color 0.5s ease;
+}
+.contenedor_redes i:hover{
+    color: #ed174a;
+}
 @media screen and (min-width:1024px){
     .content_title{
     font-size: 40px;
